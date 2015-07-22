@@ -1,0 +1,45 @@
+{
+  "name": "waterline-salesforce",
+  "version": "0.0.1",
+  "description": "Salesforce adapter for Sails / Waterline",
+  "main": "./lib/adapter.js",
+  "scripts": {
+    "test": "node test/integration/runner -R spec -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/VivintSolar/waterline-salesforce.git"
+  },
+  "keywords": [
+    "forcedotcom",
+    "force.com",
+    "salesforce",
+    "adapter",
+    "sails",
+    "waterline",
+    "sails.js",
+    "plugin"
+  ],
+  "author": "ksmithut",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "captains-log": "^0.11.6",
+    "jsforce": "^1.1.2",
+    "lodash": "^2.4.1",
+    "moment": "^2.6.0",
+    "object-assign": "^3.0.0",
+    "waterline-errors": "~0.10.0"
+  },
+  "devDependencies": {
+    "waterline-adapter-tests": "~0.10.0",
+    "mocha": "*",
+    "captains-log": "~0.11.0"
+  },
+  "waterlineAdapter": {
+    "type": "salesforce",
+    "interfaces": [],
+    "waterlineVersion": "~0.10.0"
+  }
+}
