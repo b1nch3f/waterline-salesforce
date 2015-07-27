@@ -1,6 +1,6 @@
 {
   "name": "waterline-salesforce",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Salesforce adapter for Sails / Waterline",
   "main": "./lib/adapter.js",
   "scripts": {
