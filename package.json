@@ -28,7 +28,7 @@
     "flat": "^1.6.0",
     "jsforce": "^1.1.2",
     "moment": "^2.6.0",
-    "object-assign": "^3.0.0",
+    "object-assign": "^4.0.1",
     "waterline-errors": "~0.10.0"
   },
   "devDependencies": {
